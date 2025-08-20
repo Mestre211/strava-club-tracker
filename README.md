@@ -14,6 +14,10 @@ Un tracker personalizado para analizar el progreso de clubes de Strava y generar
 - 🔧 **Reglas personalizables** para diferentes deportes
 - 🔐 **Autenticación OAuth** completa con Strava
 
+## 🌐 Sitio Web
+
+**Demo y documentación:** [https://mestre211.github.io/strava-club-tracker/](https://mestre211.github.io/strava-club-tracker/)
+
 ## 🚀 Instalación
 
 ### Requisitos
@@ -25,7 +29,7 @@ Un tracker personalizado para analizar el progreso de clubes de Strava y generar
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/TU_USUARIO/strava-club-tracker.git
+   git clone https://github.com/Mestre211/strava-club-tracker.git
    cd strava-club-tracker
    ```
 
@@ -50,6 +54,18 @@ Un tracker personalizado para analizar el progreso de clubes de Strava y generar
    ```
    http://127.0.0.1:8000/
    ```
+
+### Opciones de acceso
+
+#### 🏠 Desarrollo Local
+- **URL:** `http://127.0.0.1:8000/`
+- **Funcionalidad:** Completa (OAuth, descarga de datos, generación de reportes)
+- **Requisitos:** PHP + Composer
+
+#### 🌐 GitHub Pages (Solo documentación)
+- **URL:** [https://mestre211.github.io/strava-club-tracker/](https://mestre211.github.io/strava-club-tracker/)
+- **Funcionalidad:** Documentación y código fuente
+- **Uso:** Descarga e instalación local para funcionalidades completas
 
 ## 📋 Uso
 
