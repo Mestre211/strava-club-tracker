@@ -48,7 +48,7 @@ Un tracker personalizado para analizar el progreso de clubes de Strava y generar
 4. **Configura tu aplicación de Strava:**
    - Ve a: https://www.strava.com/settings/api
    - Crea una nueva aplicación
-   - Configura el callback: `http://127.0.0.1:8000/oauth_strava.php`
+   - Configura el callback: `http://127.0.0.1:8000/oauth_strava.php` (para desarrollo local)
 
 5. **Accede al proyecto:**
    ```
@@ -70,22 +70,24 @@ Un tracker personalizado para analizar el progreso de clubes de Strava y generar
 ## 📋 Uso
 
 ### 1. Configurar OAuth
-- Ve a `http://127.0.0.1:8000/oauth_strava.php`
+- Ve a `/oauth_strava.php` en tu servidor local
 - Ingresa tu Client ID y Client Secret
 - Autoriza la aplicación con Strava
 
 ### 2. Descargar datos
-- Accede a `http://127.0.0.1:8000/strava_downloader.php`
+- Accede a `/strava_downloader.php`
 - Los datos se descargarán automáticamente
 
 ### 3. Generar reportes
-- Ve a `http://127.0.0.1:8000/generate_reports.php`
+- Ve a `/generate_reports.php`
 - Se generarán dashboards HTML
 
 ### 4. Ver resultados
-- Dashboard principal: `http://127.0.0.1:8000/index.html`
+- Dashboard principal: `/index.html`
 - Páginas individuales de atletas
 - Exportación CSV disponible
+
+> **📍 Nota:** Todas las rutas son relativas a tu servidor local (`http://127.0.0.1:8000/`) una vez instalado.
 
 ## ⚙️ Configuración
 
