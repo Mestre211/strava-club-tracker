@@ -1,0 +1,37 @@
+# Archivos de configuración sensibles
+htdocs/token_data.json
+*.log
+
+# Datos descargados de Strava (pueden contener información personal)
+json/
+htdocs/*.html
+htdocs/*.csv
+export.csv
+
+# Archivos temporales de PHP
+*.tmp
+*.temp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de dependencias
+lib/vendor/
+
+# Archivos de configuración local
+config.local.php
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs del servidor PHP
+*.access.log
+*.error.log
